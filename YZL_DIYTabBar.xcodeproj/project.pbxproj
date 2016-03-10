@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1741F6661C8FF6E800320D2A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F65E1C8FF6E800320D2A /* UIView+Extension.m */; };
+		1741F6671C8FF6E800320D2A /* YZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F6621C8FF6E800320D2A /* YZLTabBar.m */; };
+		1741F6681C8FF6E800320D2A /* YZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F6651C8FF6E800320D2A /* YZLTabBarController.m */; };
+		1741F6721C8FF70200320D2A /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F66B1C8FF70200320D2A /* Test1ViewController.m */; };
+		1741F6731C8FF70200320D2A /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F66D1C8FF70200320D2A /* Test2ViewController.m */; };
+		1741F6741C8FF70200320D2A /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F66F1C8FF70200320D2A /* Test3ViewController.m */; };
+		1741F6751C8FF70200320D2A /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741F6711C8FF70200320D2A /* Test4ViewController.m */; };
+		1762593B1C8D0B4C009D8F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1762593A1C8D0B4C009D8F35 /* main.m */; };
+		1762593E1C8D0B4C009D8F35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1762593D1C8D0B4C009D8F35 /* AppDelegate.m */; };
+		176259441C8D0B4D009D8F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176259421C8D0B4D009D8F35 /* Main.storyboard */; };
+		176259461C8D0B4D009D8F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176259451C8D0B4D009D8F35 /* Assets.xcassets */; };
+		176259491C8D0B4D009D8F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176259471C8D0B4D009D8F35 /* LaunchScreen.storyboard */; };
+		176259541C8D0B4D009D8F35 /* YZL_DIYTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 176259531C8D0B4D009D8F35 /* YZL_DIYTabBarTests.m */; };
+		1762595F1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1762595E1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176259501C8D0B4D009D8F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1762592E1C8D0B4C009D8F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176259351C8D0B4C009D8F35;
+			remoteInfo = YZL_DIYTabBar;
+		};
+		1762595B1C8D0B4D009D8F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1762592E1C8D0B4C009D8F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176259351C8D0B4C009D8F35;
+			remoteInfo = YZL_DIYTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1741F65D1C8FF6E800320D2A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		1741F65E1C8FF6E800320D2A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1741F6611C8FF6E800320D2A /* YZLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLTabBar.h; sourceTree = "<group>"; };
+		1741F6621C8FF6E800320D2A /* YZLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLTabBar.m; sourceTree = "<group>"; };
+		1741F6641C8FF6E800320D2A /* YZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLTabBarController.h; sourceTree = "<group>"; };
+		1741F6651C8FF6E800320D2A /* YZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLTabBarController.m; sourceTree = "<group>"; };
+		1741F66A1C8FF70200320D2A /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		1741F66B1C8FF70200320D2A /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		1741F66C1C8FF70200320D2A /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		1741F66D1C8FF70200320D2A /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		1741F66E1C8FF70200320D2A /* Test3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		1741F66F1C8FF70200320D2A /* Test3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		1741F6701C8FF70200320D2A /* Test4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test4ViewController.h; sourceTree = "<group>"; };
+		1741F6711C8FF70200320D2A /* Test4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
+		1741F6761C8FF74800320D2A /* useMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = useMethod.h; sourceTree = "<group>"; };
+		176259361C8D0B4C009D8F35 /* YZL_DIYTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZL_DIYTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1762593A1C8D0B4C009D8F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1762593C1C8D0B4C009D8F35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1762593D1C8D0B4C009D8F35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		176259431C8D0B4D009D8F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		176259451C8D0B4D009D8F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		176259481C8D0B4D009D8F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1762594A1C8D0B4D009D8F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1762594F1C8D0B4D009D8F35 /* YZL_DIYTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZL_DIYTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176259531C8D0B4D009D8F35 /* YZL_DIYTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZL_DIYTabBarTests.m; sourceTree = "<group>"; };
+		176259551C8D0B4D009D8F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1762595A1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZL_DIYTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1762595E1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZL_DIYTabBarUITests.m; sourceTree = "<group>"; };
+		176259601C8D0B4D009D8F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176259331C8D0B4C009D8F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1762594C1C8D0B4D009D8F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176259571C8D0B4D009D8F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1741F65B1C8FF6E800320D2A /* YZLTabBar_ArcVersion_1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				1741F65C1C8FF6E800320D2A /* Category */,
+				1741F65F1C8FF6E800320D2A /* Model */,
+				1741F6601C8FF6E800320D2A /* View */,
+				1741F6631C8FF6E800320D2A /* ViewController */,
+			);
+			path = YZLTabBar_ArcVersion_1.0;
+			sourceTree = "<group>";
+		};
+		1741F65C1C8FF6E800320D2A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1741F65D1C8FF6E800320D2A /* UIView+Extension.h */,
+				1741F65E1C8FF6E800320D2A /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1741F65F1C8FF6E800320D2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1741F6601C8FF6E800320D2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1741F6611C8FF6E800320D2A /* YZLTabBar.h */,
+				1741F6621C8FF6E800320D2A /* YZLTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1741F6631C8FF6E800320D2A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1741F6641C8FF6E800320D2A /* YZLTabBarController.h */,
+				1741F6651C8FF6E800320D2A /* YZLTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1741F6691C8FF70200320D2A /* testController */ = {
+			isa = PBXGroup;
+			children = (
+				1741F66A1C8FF70200320D2A /* Test1ViewController.h */,
+				1741F66B1C8FF70200320D2A /* Test1ViewController.m */,
+				1741F66C1C8FF70200320D2A /* Test2ViewController.h */,
+				1741F66D1C8FF70200320D2A /* Test2ViewController.m */,
+				1741F66E1C8FF70200320D2A /* Test3ViewController.h */,
+				1741F66F1C8FF70200320D2A /* Test3ViewController.m */,
+				1741F6701C8FF70200320D2A /* Test4ViewController.h */,
+				1741F6711C8FF70200320D2A /* Test4ViewController.m */,
+			);
+			path = testController;
+			sourceTree = "<group>";
+		};
+		1762592D1C8D0B4C009D8F35 = {
+			isa = PBXGroup;
+			children = (
+				176259381C8D0B4C009D8F35 /* YZL_DIYTabBar */,
+				176259521C8D0B4D009D8F35 /* YZL_DIYTabBarTests */,
+				1762595D1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests */,
+				176259371C8D0B4C009D8F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176259371C8D0B4C009D8F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176259361C8D0B4C009D8F35 /* YZL_DIYTabBar.app */,
+				1762594F1C8D0B4D009D8F35 /* YZL_DIYTabBarTests.xctest */,
+				1762595A1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176259381C8D0B4C009D8F35 /* YZL_DIYTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1741F6761C8FF74800320D2A /* useMethod.h */,
+				1741F6691C8FF70200320D2A /* testController */,
+				176259391C8D0B4C009D8F35 /* Supporting Files */,
+				1741F65B1C8FF6E800320D2A /* YZLTabBar_ArcVersion_1.0 */,
+			);
+			path = YZL_DIYTabBar;
+			sourceTree = "<group>";
+		};
+		176259391C8D0B4C009D8F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1762593C1C8D0B4C009D8F35 /* AppDelegate.h */,
+				1762593D1C8D0B4C009D8F35 /* AppDelegate.m */,
+				176259421C8D0B4D009D8F35 /* Main.storyboard */,
+				176259451C8D0B4D009D8F35 /* Assets.xcassets */,
+				176259471C8D0B4D009D8F35 /* LaunchScreen.storyboard */,
+				1762594A1C8D0B4D009D8F35 /* Info.plist */,
+				1762593A1C8D0B4C009D8F35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		176259521C8D0B4D009D8F35 /* YZL_DIYTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				176259531C8D0B4D009D8F35 /* YZL_DIYTabBarTests.m */,
+				176259551C8D0B4D009D8F35 /* Info.plist */,
+			);
+			path = YZL_DIYTabBarTests;
+			sourceTree = "<group>";
+		};
+		1762595D1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1762595E1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.m */,
+				176259601C8D0B4D009D8F35 /* Info.plist */,
+			);
+			path = YZL_DIYTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176259351C8D0B4C009D8F35 /* YZL_DIYTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176259631C8D0B4D009D8F35 /* Build configuration list for PBXNativeTarget "YZL_DIYTabBar" */;
+			buildPhases = (
+				176259321C8D0B4C009D8F35 /* Sources */,
+				176259331C8D0B4C009D8F35 /* Frameworks */,
+				176259341C8D0B4C009D8F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZL_DIYTabBar;
+			productName = YZL_DIYTabBar;
+			productReference = 176259361C8D0B4C009D8F35 /* YZL_DIYTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1762594E1C8D0B4D009D8F35 /* YZL_DIYTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176259661C8D0B4D009D8F35 /* Build configuration list for PBXNativeTarget "YZL_DIYTabBarTests" */;
+			buildPhases = (
+				1762594B1C8D0B4D009D8F35 /* Sources */,
+				1762594C1C8D0B4D009D8F35 /* Frameworks */,
+				1762594D1C8D0B4D009D8F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176259511C8D0B4D009D8F35 /* PBXTargetDependency */,
+			);
+			name = YZL_DIYTabBarTests;
+			productName = YZL_DIYTabBarTests;
+			productReference = 1762594F1C8D0B4D009D8F35 /* YZL_DIYTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		176259591C8D0B4D009D8F35 /* YZL_DIYTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176259691C8D0B4D009D8F35 /* Build configuration list for PBXNativeTarget "YZL_DIYTabBarUITests" */;
+			buildPhases = (
+				176259561C8D0B4D009D8F35 /* Sources */,
+				176259571C8D0B4D009D8F35 /* Frameworks */,
+				176259581C8D0B4D009D8F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1762595C1C8D0B4D009D8F35 /* PBXTargetDependency */,
+			);
+			name = YZL_DIYTabBarUITests;
+			productName = YZL_DIYTabBarUITests;
+			productReference = 1762595A1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1762592E1C8D0B4C009D8F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YZL;
+				TargetAttributes = {
+					176259351C8D0B4C009D8F35 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VFJ4NMBW29;
+					};
+					1762594E1C8D0B4D009D8F35 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VFJ4NMBW29;
+						TestTargetID = 176259351C8D0B4C009D8F35;
+					};
+					176259591C8D0B4D009D8F35 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VFJ4NMBW29;
+						TestTargetID = 176259351C8D0B4C009D8F35;
+					};
+				};
+			};
+			buildConfigurationList = 176259311C8D0B4C009D8F35 /* Build configuration list for PBXProject "YZL_DIYTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1762592D1C8D0B4C009D8F35;
+			productRefGroup = 176259371C8D0B4C009D8F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176259351C8D0B4C009D8F35 /* YZL_DIYTabBar */,
+				1762594E1C8D0B4D009D8F35 /* YZL_DIYTabBarTests */,
+				176259591C8D0B4D009D8F35 /* YZL_DIYTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176259341C8D0B4C009D8F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176259491C8D0B4D009D8F35 /* LaunchScreen.storyboard in Resources */,
+				176259461C8D0B4D009D8F35 /* Assets.xcassets in Resources */,
+				176259441C8D0B4D009D8F35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1762594D1C8D0B4D009D8F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176259581C8D0B4D009D8F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176259321C8D0B4C009D8F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741F6721C8FF70200320D2A /* Test1ViewController.m in Sources */,
+				1741F6751C8FF70200320D2A /* Test4ViewController.m in Sources */,
+				1741F6671C8FF6E800320D2A /* YZLTabBar.m in Sources */,
+				1741F6741C8FF70200320D2A /* Test3ViewController.m in Sources */,
+				1741F6661C8FF6E800320D2A /* UIView+Extension.m in Sources */,
+				1762593E1C8D0B4C009D8F35 /* AppDelegate.m in Sources */,
+				1741F6731C8FF70200320D2A /* Test2ViewController.m in Sources */,
+				1741F6681C8FF6E800320D2A /* YZLTabBarController.m in Sources */,
+				1762593B1C8D0B4C009D8F35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1762594B1C8D0B4D009D8F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176259541C8D0B4D009D8F35 /* YZL_DIYTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176259561C8D0B4D009D8F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1762595F1C8D0B4D009D8F35 /* YZL_DIYTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176259511C8D0B4D009D8F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176259351C8D0B4C009D8F35 /* YZL_DIYTabBar */;
+			targetProxy = 176259501C8D0B4D009D8F35 /* PBXContainerItemProxy */;
+		};
+		1762595C1C8D0B4D009D8F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176259351C8D0B4C009D8F35 /* YZL_DIYTabBar */;
+			targetProxy = 1762595B1C8D0B4D009D8F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		176259421C8D0B4D009D8F35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176259431C8D0B4D009D8F35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		176259471C8D0B4D009D8F35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176259481C8D0B4D009D8F35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176259611C8D0B4D009D8F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		176259621C8D0B4D009D8F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176259641C8D0B4D009D8F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZL_DIYTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martell.YZL-DIYTabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		176259651C8D0B4D009D8F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZL_DIYTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martell.YZL-DIYTabBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		176259671C8D0B4D009D8F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZL_DIYTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martell.YZL-DIYTabBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZL_DIYTabBar.app/YZL_DIYTabBar";
+			};
+			name = Debug;
+		};
+		176259681C8D0B4D009D8F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZL_DIYTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martell.YZL-DIYTabBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZL_DIYTabBar.app/YZL_DIYTabBar";
+			};
+			name = Release;
+		};
+		1762596A1C8D0B4D009D8F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZL_DIYTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martell.YZL-DIYTabBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZL_DIYTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1762596B1C8D0B4D009D8F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZL_DIYTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.martell.YZL-DIYTabBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZL_DIYTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176259311C8D0B4C009D8F35 /* Build configuration list for PBXProject "YZL_DIYTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176259611C8D0B4D009D8F35 /* Debug */,
+				176259621C8D0B4D009D8F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176259631C8D0B4D009D8F35 /* Build configuration list for PBXNativeTarget "YZL_DIYTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176259641C8D0B4D009D8F35 /* Debug */,
+				176259651C8D0B4D009D8F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176259661C8D0B4D009D8F35 /* Build configuration list for PBXNativeTarget "YZL_DIYTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176259671C8D0B4D009D8F35 /* Debug */,
+				176259681C8D0B4D009D8F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176259691C8D0B4D009D8F35 /* Build configuration list for PBXNativeTarget "YZL_DIYTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1762596A1C8D0B4D009D8F35 /* Debug */,
+				1762596B1C8D0B4D009D8F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1762592E1C8D0B4C009D8F35 /* Project object */;
+}
