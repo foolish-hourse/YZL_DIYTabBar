@@ -1,4 +1,5 @@
 # YZL_DIYTabBar
+```objc
 自定义tabbar
 /* step1:导入YZLTabBar_ArcVersion_1.0工具包
  * step2:AppDelegate.m文件中#import "YZLTabBarController.h"，在Assets.xcassets中准备需要的资源文件
@@ -26,3 +27,4 @@
  tab.menuTitleColor = [UIColor blueColor];
  step6:设置tab为根视图  self.window.rootViewController = tab;
  */
+```
